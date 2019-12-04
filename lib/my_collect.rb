@@ -4,7 +4,7 @@ def my_collect(arg)
   
   arg.collect do |name|
     yield name
-    name 
+    # name 
   end 
   
   
