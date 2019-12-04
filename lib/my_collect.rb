@@ -3,11 +3,10 @@ require 'pry'
 def my_collect(arg)
   
   arg.collect do |name|
-    # binding.pry
-    name.split(' ').first 
+    yield arg[name]
+    name 
   end 
   
-  arg.collect {|language| language.upcase}
   
 end 
 
