@@ -2,7 +2,7 @@ def my_collect(arg)
   
   arg.collect do |idx|
     yield idx
-    idx.first
+    idx
   end 
   
 end 
