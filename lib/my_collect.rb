@@ -5,7 +5,7 @@ def my_collect(arg)
   arg.collect do |idx|
     yield idx
     idx
-    binding.pry
+    # binding.pry
   end 
   
 end 
